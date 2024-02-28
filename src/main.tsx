@@ -11,7 +11,7 @@ import Repos from "./routes/Repos";
 
 const router = createBrowserRouter([
   {
-    path: "/busca_repositorios_git",
+    path: "/",
     element: <App />,
     children: [
       {
