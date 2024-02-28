@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ # GitHub Finder
+- https://busca-repositorios-git.vercel.app/
+ 
+### O GitHub Finder é uma aplicação web interativa desenvolvida para facilitar a busca e exploração de perfis de usuários no GitHub. Seja para encontrar desenvolvedores talentosos ou para descobrir projetos interessantes, o GitHub Finder oferece uma experiência simples e eficiente.
 
-Currently, two official plugins are available:
+## Funcionalidades Principais
+- Busca de Usuários
+- Utilize a barra de pesquisa para encontrar perfis de usuários do GitHub.
+- Obtenha informações detalhadas sobre cada perfil, incluindo avatar, localização, seguidores e seguindo.
+## Exploração de Repositórios
+- Navegue pelos principais repositórios de um usuário.
+- Descubra projetos populares com base no número de estrelas e forks.
+## Interface Intuitiva
+- Interface de usuário amigável para uma experiência de navegação suave.
+- Design responsivo para se adequar a diferentes dispositivos e tamanhos de tela.
+## Tecnologias Utilizadas
+- React: Biblioteca JavaScript para construção de interfaces de usuário reativas.
+- React Router: Facilita a navegação entre diferentes páginas da aplicação.
+- Fetch API: Utilizada para fazer requisições à API pública do GitHub e obter dados em tempo real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  # Como Executar Localmente
+     - Clone o Repositório
+### Copy code
+          - git clone https://seu-repositorio-github-finder.git
+## Instale as Dependências
 
-## Expanding the ESLint configuration
+### Copy code
+         - cd github-finder
+         - npm install
+## Inicie a Aplicação
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Copy code
+      - npm start
+- Acesse http://localhost:3000 no seu navegador para começar a explorar o GitHub Finder.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
