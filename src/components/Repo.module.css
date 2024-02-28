@@ -57,3 +57,20 @@
     font-size: 4rem;
     color: #fff;
 }
+
+@media screen and (max-width: 600px) {
+    .repo {
+        flex: 1 0 100%; /* Alterado para ocupar 100% da largura em telas menores */
+    }
+
+    .stats div {
+        padding: 0.5rem; 
+    }
+
+    .githubIconContainer {
+        width: 100%; 
+    }
+}
+.githubIcon {
+    font-size: 2.5rem;
+}
