@@ -1,0 +1,15 @@
+.errorContainer {
+    text-align: center;
+    padding: 20px;
+}
+
+.errorImage {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.errorMessage {
+    font-size: 16px;
+    color: #Ffff;
+}
